@@ -1,6 +1,5 @@
-
 import { useState, useEffect } from 'react';
-import { Shield, ArrowDown } from 'lucide-react';
+import { Shield, ArrowDown, Grid2X2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 
@@ -44,7 +43,7 @@ const Hero = () => {
           <div className="mx-auto w-64 h-64 md:w-80 md:h-80 relative">
             {/* City core */}
             <div className="absolute inset-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-gradient-to-br from-gray-400 to-gray-600 rounded-lg flex items-center justify-center">
-              <Grid2x2 className="h-8 w-8 text-white" />
+              <Grid2X2 className="h-8 w-8 text-white" />
             </div>
             
             {/* Magnetic field rings */}
