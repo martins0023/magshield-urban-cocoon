@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-orange-500/20 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '1s' }}></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-4 pt-4">
         <div className="mb-8">
           <Badge variant="outline" className="border-blue-400 text-blue-300 mb-4">
             Project 31 of 100 • Pressing Societal Needs
